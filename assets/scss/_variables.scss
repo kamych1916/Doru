@@ -1,0 +1,98 @@
+/*! purgecss start ignore */
+
+// Цвета
+$white: white;
+$light-gray: #9495a6;
+$blue: #409eff;
+
+// Размеры контейнера
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1320px
+);
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0px,
+  1: 1px,
+  2: 2px,
+  4: 4px,
+  5: 5px,
+  6: 6px,
+  8: 8px,
+  10: 10px,
+  12: 12px,
+  13: 13px,
+  14: 14px,
+  16: 16px,
+  18: 18px,
+  20: 20px,
+  22: 22px,
+  24: 24px,
+  26: 26px,
+  28: 28px,
+  30: 30px,
+  32: 32px,
+  34: 34px,
+  36: 36px,
+  38: 38px,
+  40: 40px,
+  42: 42px,
+  44: 44px,
+  46: 46px,
+  48: 48px,
+  50: 50px,
+  58: 58px,
+  60: 60px,
+  70: 60px,
+  80: 60px,
+  100: 100px
+);
+
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: () !default;
+$sizes: map-merge(
+  (
+    25: 25%,
+    50: 50%,
+    75: 75%,
+    100: 100%,
+    auto: auto
+  ),
+  $sizes
+);
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 20px !default;
+$grid-row-columns: 6 !default;
+
+// Настройка типографии
+
+$font-stack: "Montserrat", "Roboto", "Helvetica Neue", Helvetica, Arial,
+  sans-serif;
+$font-family-base: $font-stack;
+$font-size-base: 1rem;
+
+// Cards
+
+$card-spacer-y: 1.5rem !default;
+$card-spacer-x: 1.5rem !default;
+$card-border-width: 0 !default;
+$card-border-radius: 24px;
+$card-border-color: transparent !default;
+$card-inner-border-radius: 0;
+$card-cap-bg: transparent;
+$card-cap-color: null !default;
+$card-height: null !default;
+$card-color: null !default;
+$card-bg: #fff;
+
+$card-img-overlay-padding: 1.25rem !default;
+
+/*! purgecss end ignore */

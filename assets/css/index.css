@@ -1,0 +1,64 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+@import "element-ui/lib/theme-chalk/button.css";
+
+@import "element-ui/lib/theme-chalk/menu.css";
+
+@import "element-ui/lib/theme-chalk/icon.css";
+@import "element-ui/lib/theme-chalk/tooltip.css";
+@import "element-ui/lib/theme-chalk/divider.css";
+@import "element-ui/lib/theme-chalk/input.css";
+@import "element-ui/lib/theme-chalk/input-number.css";
+@import "element-ui/lib/theme-chalk/autocomplete.css";
+@import "element-ui/lib/theme-chalk/breadcrumb.css";
+@import "element-ui/lib/theme-chalk/image.css";
+
+@import "element-ui/lib/theme-chalk/notification.css";
+@import "element-ui/lib/theme-chalk/select.css";
+/* @import "element-ui/lib/theme-chalk/dialog.css"; */
+@import "element-ui/lib/theme-chalk/upload.css";
+@import "element-ui/lib/theme-chalk/pagination.css";
+@import "element-ui/lib/theme-chalk/tabs.css";
+@import "element-ui/lib/theme-chalk/popover.css";
+
+.card-wrap {
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 2rem;
+  box-shadow: 0 1px 15px 0 hsl(0deg 0% 48% / 5%);
+  background: #fff;
+}
+
+html,
+body {
+  background: #edf6fb !important;
+  /* background: linear-gradient(
+    1deg,
+    rgba(2, 0, 36, 1) 0%,
+    #f5f5f5 0%,
+    rgba(217, 217, 217, 1) 100%
+  ) !important; */
+
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important; */
+  font-family: "Formular" !important;
+}
+@font-face {
+  font-family: "Formular";
+  src: local("Formular Bold"), local("Formular-Bold"),
+    url("../fonts/Formular-Bold.woff2") format("woff2"),
+    url("../fonts/Formular-Bold.woff") format("woff"),
+    url("../fonts/Formular-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

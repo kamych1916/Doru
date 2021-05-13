@@ -1,0 +1,23 @@
+// Bootstrap функции и переменные
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/images";
+// Переменные нашего проекта, ипользуюся для собственных компонентов и для корректировки переменных бутстрапа
+@import "variables";
+@import "auth";
+@import "reboot";
+@import "./mainPage/index";
+
+// Bootstrap утилиты
+@import "~bootstrap/scss/utilities/display";
+@import "~bootstrap/scss/utilities/flex";
+@import "~bootstrap/scss/utilities/background";
+@import "~bootstrap/scss/utilities/sizing";
+@import "~bootstrap/scss/utilities/spacing";
+@import "~bootstrap/scss/utilities/stretched-link";
+// Bootstrap компоненты
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/grid";
+
+// @import "~bootstrap/scss/bootstrap";

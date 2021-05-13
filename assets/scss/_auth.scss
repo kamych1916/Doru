@@ -1,0 +1,32 @@
+.auth-template {
+  width: 40%;
+  margin: 0 auto;
+  padding: 30px 50px 50px 50px;
+  margin-bottom: 30px;
+  border-radius: 2rem;
+  background: #fff;
+  & form h3 {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7a7a7a;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #2554ff;
+}
+
+@include media-breakpoint-down(sm) {
+  .auth-template {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
